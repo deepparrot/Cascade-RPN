@@ -12,11 +12,6 @@ cd ..
 
 git clone https://github.com/open-mmlab/mmdetection/
 cd mmdetection
-git checkout 6e48d28198ea5d6dcf6a9618fd8d2832b5eaf538
-cd ..
-
-# install mmdetection
-cd mmdetection
 
 echo "Installing..."
 $PYTHON setup.py develop
