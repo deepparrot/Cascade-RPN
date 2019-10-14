@@ -55,10 +55,3 @@ $PYTHON setup.py build_ext --inplace
 cd ..
 cd ..
 cd ..
-
-git clone https://github.com/open-mmlab/mmdetection/
-cd mmdetection
-
-echo "Installing..."
-$PYTHON setup.py develop
-cd ..
