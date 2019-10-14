@@ -8,6 +8,7 @@ apt-get git
 git clone https://github.com/NVIDIA/apex
 cd apex
 pip install -v --no-cache-dir ./
+
 cd ..
 
 echo "Building roi align op..."
@@ -51,7 +52,3 @@ if [ -d "build" ]; then
     rm -r build
 fi
 $PYTHON setup.py build_ext --inplace
-
-cd ..
-cd ..
-cd ..
