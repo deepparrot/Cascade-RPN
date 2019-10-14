@@ -16,10 +16,10 @@ torch.manual_seed(0)
 from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 from mmcv.runner import get_dist_info, load_checkpoint
 
-from mmdetection.mmdet.apis import init_dist
-from mmdetection.mmdet.core import coco_eval, wrap_fp16_model
-from mmdetection.mmdet.datasets import build_dataloader, build_dataset
-from mmdetection.mmdet.models import build_detector
+from mmdet.apis import init_dist
+from mmdet.core import coco_eval, wrap_fp16_model
+from mmdet.datasets import build_dataloader, build_dataset
+from mmdet.models import build_detector
 
 # Extract val2017 zip
 from torchbench.utils import extract_archive
