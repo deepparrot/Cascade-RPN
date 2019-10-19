@@ -313,7 +313,7 @@ def evaluate_model(model_name, paper_arxiv_id, weights_url, weights_name, paper_
         evaluator.save()
     
     else:
-        from mmdetection.mmdet.core import results2json
+        from mmdet.core import results2json
 
         rank, _ = get_dist_info()
         if out and rank == 0:
