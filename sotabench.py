@@ -342,7 +342,7 @@ def evaluate_model(model_name, paper_arxiv_id, weights_url, weights_name, paper_
 model_configs = []
 
 # CASCADE RPN
-
+"""
 model_configs.append(
     {'model_name': 'CRPN Fast R-CNN (ResNet-50-FPN)', 
      'paper_arxiv_id': '1909.06720',
@@ -351,7 +351,7 @@ model_configs.append(
      'config': './configs/cascade_rpn/crpn_fast_rcnn_r50_fpn_1x.py',
     'paper_results': None}
 )
-
+"""
 model_configs.append(
     {'model_name': 'CRPN Faster R-CNN (ResNet-50-FPN)', 
      'paper_arxiv_id': '1909.06720',
